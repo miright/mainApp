@@ -1,0 +1,5 @@
+https://cangdu.org/micro-app/docs.html#/
+
+https://github.com/micro-zoe/micro-app
+
+主应用(基座) vite+Vue3+Vue Router+Vuex+Element Plus+Scss
