@@ -34,6 +34,12 @@ export const constantRoutes = [
         meta: { title: '首页', icon: 'el-icon-s-home', affix: true }
       },
       {
+        path: '/my-page/*',
+        component: () => import('@/views/app-page/vue2.vue'),
+        name: 'vue2',
+        meta: { title: 'Vue2子应用', icon: 'el-icon-s-tools', roles: ['admin'] }
+      },
+      {
         path: '/setting',
         component: () => import('@/views/setting/index.vue'),
         name: 'Setting',

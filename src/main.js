@@ -9,7 +9,9 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import Directives from './directive'
+import microApp from '@micro-zoe/micro-app'
 
+microApp.start()
 import './permission' // permission control
 import { DateFormat } from '@/utils/util'
 
